@@ -1,0 +1,12 @@
+SQLITE OPEN HELPER CLASS:
+       This is a helper class to manage database creation and management.In subclass we have to impliment onCreate(SQLiteDatabase)
+OnUpgrade(SQLitedatabase) and optionally onOpen(SQliteDatabase)
+
+
+ONUPGRADE():
+       onUpgrade is for handling new db changes(such as new column addition,new table addition) for new version of an app.
+
+
+ How to show sqlite database table information in android application what is the best way to do it? 
+       
+      Get rows from the database and display them by using tablelayout with textview.
